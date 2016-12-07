@@ -114,23 +114,23 @@ Create a section for your plugin, add a description and a table of parameters. E
 
 Example for 'mem' Check added in 2.3:
 
-	## <a id="plugins-contrib-operating-system"></a> Operating System
+## <a id="plugins-contrib-operating-system"></a> Operating System
 
-	In this category you can find plugins for gathering information about your operating system or the system beneath like memory usage.
+In this category you can find plugins for gathering information about your operating system or the system beneath like memory usage.
 
-	### <a id="plugins-contrib-command-mem"></a> mem
+### <a id="plugins-contrib-command-mem"></a> mem
 
-	The plugin `mem` is used for gathering information about memory usage on linux and unix hosts. It is able to count cache memory as free when comparing it to the thresholds. It is provided by `Justin Ellison` on [https://github.com](https://github.com/justintime/nagios-plugins). For more details see the developers blog [http://sysadminsjourney.com](http://sysadminsjourney.com/content/2009/06/04/new-and-improved-checkmempl-nagios-plugin).
+The plugin `mem` is used for gathering information about memory usage on linux and unix hosts. It is able to count cache memory as free when comparing it to the thresholds. It is provided by `Justin Ellison` on [https://github.com](https://github.com/justintime/nagios-plugins). For more details see the developers blog [http://sysadminsjourney.com](http://sysadminsjourney.com/content/2009/06/04/new-and-improved-checkmempl-nagios-plugin).
 
-	Custom Attributes:
+Custom Attributes:
 
-	Name         | Description
-	-------------|-----------------------------------------------------	------------------------------------------------------------------
-	mem_used     | **Optional.** Tell the plugin to check for used memory in opposite of **mem_free**. Must specify one of these as true.
-	mem_free     | **Optional.** Tell the plugin to check for free memory in opposite of **mem_used**. Must specify one of these as true.
-	mem_cache    | **Optional.** If set to true plugin will count cache as free memory. Defaults to false.
-	mem_warning  | **Required.** Specifiy the warning threshold as number interpreted as percent.
-	mem_critical | **Required.** Specifiy the critical threshold as number interpreted as percent.
+Name         | Description
+-------------|-----------------------------------------------------------------------------------------------------------------------
+mem_used     | **Optional.** Tell the plugin to check for used memory in opposite of **mem_free**. Must specify one of these as true.
+mem_free     | **Optional.** Tell the plugin to check for free memory in opposite of **mem_used**. Must specify one of these as true.
+mem_cache    | **Optional.** If set to true plugin will count cache as free memory. Defaults to false.
+mem_warning  | **Required.** Specifiy the warning threshold as number interpreted as percent.
+mem_critical | **Required.** Specifiy the critical threshold as number interpreted as percent.
  
 ##CheckCommand and Documentation added, what's next?
 

@@ -5,7 +5,7 @@
 
 If you're looking for Icinga 2 performance tuning, please head over to [Icinga Docs](https://docs.icinga.org)
 
-##[Analysis](001_004_icinga_performance_analysis.md) comes first
+##[Analysis](01_03_icinga_performance_analysis.md) comes first
 
 ##Performance Hints
 

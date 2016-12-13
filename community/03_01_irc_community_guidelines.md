@@ -72,4 +72,4 @@ Don't ask us, we will ask you. Being an operator in #icinga is not a privilege, 
 ##Please don't bring bots
 
 Sanctioned bots will be provided if there is a need for them.
-The current list of approved bots is in the Tools section of the [IRC wiki page](003_irc.md).
+The current list of approved bots is in the Tools section of the [IRC wiki page](03_00_irc.md).
